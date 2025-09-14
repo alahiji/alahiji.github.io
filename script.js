@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let gradientAngle = 135;
     setInterval(() => {
         gradientAngle += 0.5;
-        document.body.style.background = `linear-gradient(${gradientAngle}deg,rgb(6, 109, 69) 0%,rgb(3, 144, 163) 100%)`;
+        document.body.style.background = `linear-gradient(${gradientAngle}deg,rgb(2, 48, 32) 0%,rgb(1, 64, 72) 100%)`;
     }, 100);
 });
 
