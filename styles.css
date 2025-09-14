@@ -165,6 +165,7 @@ section {
 /* Skills Section */
 .skills {
     background: #f8fafc;
+    align-items: center;
     border-radius: 20px;
     margin: 2rem 0;
 }
@@ -210,43 +211,6 @@ section {
 .skill-item p {
     color: #718096;
     font-size: 0.95rem;
-}
-
-/* Contact Section */
-.contact-text {
-    font-size: 1.1rem;
-    color: #4a5568;
-    text-align: center;
-    margin-bottom: 2rem;
-    line-height: 1.8;
-}
-
-.contact-links {
-    display: flex;
-    justify-content: center;
-}
-
-.contact-link {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 1rem 2rem;
-    background: linear-gradient(45deg, #667eea, #764ba2);
-    color: white;
-    text-decoration: none;
-    border-radius: 50px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
-}
-
-.contact-link:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
-}
-
-.contact-link i {
-    font-size: 1.1rem;
 }
 
 /* Footer */
