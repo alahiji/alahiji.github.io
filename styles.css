@@ -9,7 +9,7 @@ body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, rgb(6, 109, 69) 0%, rgb(3, 144, 163) 100%);
     min-height: 100vh;
 }
 
@@ -108,8 +108,8 @@ body {
 }
 
 .linkedin:hover {
-    background: rgba(0, 119, 181, 0.9);
-    border-color: #0077b5;
+    background: rgba(3, 144, 163, 0.9);
+    border-color: rgb(3, 144, 163);
 }
 
 /* Content Sections */
@@ -143,7 +143,7 @@ section {
 .section-line {
     width: 60px;
     height: 4px;
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, rgb(6, 109, 69), rgb(3, 144, 163));
     margin: 0 auto;
     border-radius: 2px;
 }
@@ -197,7 +197,7 @@ section {
 
 .skill-item i {
     font-size: 3rem;
-    color: #667eea;
+    color: rgb(6, 109, 69);
     margin-bottom: 1rem;
 }
 
