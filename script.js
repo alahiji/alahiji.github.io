@@ -39,6 +39,10 @@ document.addEventListener('DOMContentLoaded', function() {
         section.style.opacity = '0';
         section.style.transform = 'translateY(30px)';
         section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        // Don't interfere with CSS layout properties
+        section.style.display = '';
+        section.style.justifyContent = '';
+        section.style.alignItems = '';
         observer.observe(section);
     });
 

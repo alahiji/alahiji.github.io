@@ -165,9 +165,11 @@ section {
 /* Skills Section */
 .skills {
     background: #f8fafc;
-    align-items: center;
     border-radius: 20px;
     margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .skills-grid {
