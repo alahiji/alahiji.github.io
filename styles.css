@@ -307,10 +307,10 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, rgb(6, 109, 69), rgb(3, 144, 163));
     border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(45deg, #5a6fd8, #6a4190);
+    background: linear-gradient(45deg, rgb(4, 87, 55), rgb(2, 115, 130));
 }
